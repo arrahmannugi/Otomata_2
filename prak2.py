@@ -10,9 +10,9 @@ def cek_string(s):
 
         if state == "S":
             if c == "1":
-                state = "A"
-            else:
                 state = "B"
+            else:
+                state = "A"
 
         elif state == "A":
             if c == "0":
